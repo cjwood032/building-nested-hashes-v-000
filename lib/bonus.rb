@@ -21,6 +21,7 @@ def bonus
   }
 
  def killem
-   epic_tragedy[:montague][:hero]
+   epic_tragedy[:montague][:hero][:status]="deadsies"
+   epic_tragedy[:capulet][:heroine][:status]="deadsies"
   epic_tragedy
 end
